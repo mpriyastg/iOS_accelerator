@@ -16,7 +16,6 @@
 		18C306BF29BF2F83007D1A33 /* NetworkReachability+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C306BE29BF2F83007D1A33 /* NetworkReachability+Extensions.swift */; };
 		18C306C129BF50C3007D1A33 /* NetworkTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C306C029BF50C3007D1A33 /* NetworkTypeEnum.swift */; };
 		18C306C329BF5128007D1A33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C306C229BF5128007D1A33 /* Constants.swift */; };
-		326A3CBD052144CDA7379C87 /* Pods_iOS_native_code.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A442BB843E72FFCCE935EB56 /* Pods_iOS_native_code.framework */; };
 		841764DA2A595DEC00B3A658 /* string_utilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841764D92A595DEC00B3A658 /* string_utilsTests.swift */; };
 		841764E12A59D2D500B3A658 /* NetworkCheckSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841764E02A59D2D500B3A658 /* NetworkCheckSample.swift */; };
 		842040532A508DC200B123EA /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 842040522A508DC200B123EA /* swiftgen.yml */; };
@@ -249,7 +248,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326A3CBD052144CDA7379C87 /* Pods_iOS_native_code.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
