@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  iOS-native-code
+
+  Created by Mohanapriya on 04/07/23.
+  
+*/
+
+"TabView.Chat" = "Chat";
+"TabView.Profile" = "Profile";
+"Slider.name" = "Slider";
+"HomeView.UIWidgets" = "UI Widgets";
+"HomeView.Popups" = "Popups";
+"HomeView.Loader" = "Loader";
+"HomeView.Menu" = "Menu";
+"HomeView.TabView" = "TabView";
+"HomeView.WebView" = "WebView";
+"HomeView.Share" = "Share";
+"HomeView.MapView" = "MapView";
+"HomeView.GoogleMap" = "Google Map";
+"HomeView.Camera/Gallery" = "Camera/Gallery";
+"HomeView.SwiftGenJson" = "SwiftGen Json";
+"HomeView.ApiView" = "Api Integration";
+"HomeView.ModifierView" = "ModifierView";
+"HomeView.NetworkCheck" = "Network Check";
+
+
+
+
+
+
+
+
+

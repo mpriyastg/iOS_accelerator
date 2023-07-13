@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "John",
+      "address": "Chennai",
+      "phone": "9775675646"
+    },
+    {
+      "name": "David",
+      "address": "Bangalore",
+      "phone": "9786756565"
+    },
+    {
+      "name": "Harry",
+      "address": "Mumbai",
+      "phone": "7564576889"
+    }
+  ]
+}

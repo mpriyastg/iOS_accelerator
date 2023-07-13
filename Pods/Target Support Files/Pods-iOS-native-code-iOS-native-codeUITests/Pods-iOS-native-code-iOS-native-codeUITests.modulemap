@@ -1,0 +1,6 @@
+framework module Pods_iOS_native_code_iOS_native_codeUITests {
+  umbrella header "Pods-iOS-native-code-iOS-native-codeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
