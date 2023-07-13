@@ -111,6 +111,7 @@
 		84D8D1912A4AE4D60066EE6E /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D1902A4AE4D60066EE6E /* PlacesManager.swift */; };
 		84D8D1932A4AF44C0066EE6E /* GooglePlacePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D1922A4AF44C0066EE6E /* GooglePlacePicker.swift */; };
 		84D8D1962A4C3C2D0066EE6E /* GoogleMapSampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8D1952A4C3C2D0066EE6E /* GoogleMapSampleViewModel.swift */; };
+		A5CF2651545D717D08659628 /* Pods_iOS_native_code.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A442BB843E72FFCCE935EB56 /* Pods_iOS_native_code.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,6 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CF2651545D717D08659628 /* Pods_iOS_native_code.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +631,7 @@
 				842040542A508E5D00B123EA /* SwiftGen */,
 				846671F12A55922C00F20E14 /* SwiftLint */,
 				2F4C5C500304CFABCBAA9E81 /* [CP] Copy Pods Resources */,
+				4F617CAFA4B582079349AA74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -736,6 +739,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F617CAFA4B582079349AA74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		842040542A508E5D00B123EA /* SwiftGen */ = {
