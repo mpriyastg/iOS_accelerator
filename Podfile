@@ -7,7 +7,7 @@ target 'iOS-native-code' do
   use_frameworks!
 
   # Pods for iOS-native-code
-pod 'Alamofire', '5.6.4'
+pod 'Alamofire'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'SwiftGen'
