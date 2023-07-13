@@ -14,13 +14,6 @@ pod 'SwiftGen'
  pod 'SwiftLint'
 
 
-  target 'iOS-native-codeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
-  target 'iOS-native-codeUITests' do
-    # Pods for testing
-  end
 
 end
