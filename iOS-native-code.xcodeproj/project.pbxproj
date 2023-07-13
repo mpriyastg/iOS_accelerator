@@ -629,7 +629,6 @@
 				842040542A508E5D00B123EA /* SwiftGen */,
 				846671F12A55922C00F20E14 /* SwiftLint */,
 				2F4C5C500304CFABCBAA9E81 /* [CP] Copy Pods Resources */,
-				4F617CAFA4B582079349AA74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -737,23 +736,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F617CAFA4B582079349AA74 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-native-code/Pods-iOS-native-code-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		842040542A508E5D00B123EA /* SwiftGen */ = {
