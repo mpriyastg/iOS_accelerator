@@ -26,18 +26,18 @@ struct SampleAPI: View {
                     cornerRadius: 10,
                     fontSize: 20,
                     action: {
-                        if NetworkReachabilityManager.getNetworkType() == .noConnection {
-                            alertTitle = "Network issue"
-                            alertMessage = "No network connection! Try again!"
-                            showAlert = true
-                            return
-                        }
-                        DispatchQueue.global(qos: .userInteractive).async {
-                            DispatchQueue.main.async {
-                                showLoading = true
-                                fetchUserProfile()
-                            }
-                        }
+//                        if NetworkReachabilityManager.getNetworkType() == .noConnection {
+//                            alertTitle = "Network issue"
+//                            alertMessage = "No network connection! Try again!"
+//                            showAlert = true
+//                            return
+//                        }
+//                        DispatchQueue.global(qos: .userInteractive).async {
+//                            DispatchQueue.main.async {
+//                                showLoading = true
+//                                fetchUserProfile()
+//                            }
+//                        }
                     }
                 ), borderColor: .blue, borderWidth: 2)
             }
@@ -56,21 +56,21 @@ struct SampleAPI: View {
         showAlert = false
     }
     func fetchUserProfile() {
-        let networkOperation = NetworkOperation()
-
-        networkOperation.request(.profile, method: .get, onSuccess: { (user: TodosModel) in
-            print(user)
-            alertTitle = "Success"
-            alertMessage = user.data.map({"\($0.employeeName) - \($0.employeeAge)"}).joined(separator: " | ")
-            showAlert = true
-            showLoading = false
-        }, onFailure: { error in
-            alertTitle = "Failed"
-            alertMessage = error.localizedDescription
-            showAlert = true
-            showLoading = false
-            print(error)
-        })
+//        let networkOperation = NetworkOperation()
+//
+//        networkOperation.request(.profile, method: .get, onSuccess: { (user: TodosModel) in
+//            print(user)
+//            alertTitle = "Success"
+//            alertMessage = user.data.map({"\($0.employeeName) - \($0.employeeAge)"}).joined(separator: " | ")
+//            showAlert = true
+//            showLoading = false
+//        }, onFailure: { error in
+//            alertTitle = "Failed"
+//            alertMessage = error.localizedDescription
+//            showAlert = true
+//            showLoading = false
+//            print(error)
+//        })
     }
 
 }
