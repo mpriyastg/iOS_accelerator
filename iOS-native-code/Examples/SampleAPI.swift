@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//import Alamofire
+import Alamofire
 
 struct SampleAPI: View {
     @State var totomodel: TodosModel?
