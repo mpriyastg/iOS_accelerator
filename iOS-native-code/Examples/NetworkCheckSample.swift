@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Alamofire
+//import Alamofire
 
 struct NetworkCheckSample: View {
     @State var showAlert = false
@@ -21,16 +21,16 @@ struct NetworkCheckSample: View {
                 cornerRadius: 30,
                 fontSize: 15,
                 action: {
-                    let networkType = NetworkReachabilityManager.getNetworkType()
-                    switch networkType {
-                    case .noConnection:
-                        alertMessage = "No connection"
-                    case .unknown:
-                        alertMessage = "Connection unknown"
-                    default:
-                        alertMessage = "Connected to network"
-                    }
-                    showAlert = true
+//                    let networkType = NetworkReachabilityManager.getNetworkType()
+//                    switch networkType {
+//                    case .noConnection:
+//                        alertMessage = "No connection"
+//                    case .unknown:
+//                        alertMessage = "Connection unknown"
+//                    default:
+//                        alertMessage = "Connected to network"
+//                    }
+//                    showAlert = true
                 }
             ))
             if showAlert {
