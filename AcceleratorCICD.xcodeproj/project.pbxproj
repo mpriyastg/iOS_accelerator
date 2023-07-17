@@ -12,6 +12,7 @@
 		8456A1862A653F9D009C6332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456A1852A653F9D009C6332 /* Assets.xcassets */; };
 		8456A1892A653F9D009C6332 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456A1882A653F9D009C6332 /* Preview Assets.xcassets */; };
 		8456A1982A6560CD009C6332 /* AcceleratorCICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1972A6560CD009C6332 /* AcceleratorCICDTests.swift */; };
+		8456A19F2A657938009C6332 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A19E2A657938009C6332 /* StringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		8456A1882A653F9D009C6332 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8456A1952A6560CD009C6332 /* AcceleratorCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleratorCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456A1972A6560CD009C6332 /* AcceleratorCICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleratorCICDTests.swift; sourceTree = "<group>"; };
+		8456A19E2A657938009C6332 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				8456A1832A653F9A009C6332 /* ContentView.swift */,
 				8456A1852A653F9D009C6332 /* Assets.xcassets */,
 				8456A1872A653F9D009C6332 /* Preview Content */,
+				8456A19E2A657938009C6332 /* StringUtils.swift */,
 			);
 			path = AcceleratorCICD;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456A19F2A657938009C6332 /* StringUtils.swift in Sources */,
 				8456A1842A653F9A009C6332 /* ContentView.swift in Sources */,
 				8456A1822A653F9A009C6332 /* AcceleratorCICDApp.swift in Sources */,
 			);
