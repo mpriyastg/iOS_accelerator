@@ -13,7 +13,7 @@ final class Test_StringUtils: XCTestCase {
     
     func testReverse() {
         let str = "gnitset"
-        XCTAssertEqual(str.reverse(), "rew")
+        XCTAssertEqual(str.reverse(), "testing")
     }
     
 }
